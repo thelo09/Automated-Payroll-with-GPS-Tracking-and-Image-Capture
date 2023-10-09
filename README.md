@@ -26,3 +26,7 @@ This application is meant for Onsite Employees, HR, and Admin whose roles have b
 
 - When the HR logs in to the system, he can check the GPS location of the employee by entering the employee ID and date.
 - HR can check the salary of the particular employee by entering the employee ID and date.
+
+## Demo
+
+[https://drive.google.com/file/d/1bycnV6zf9xU0kXV2lCxDVHtlNL12iIG3/view]
