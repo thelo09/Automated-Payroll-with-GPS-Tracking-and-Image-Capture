@@ -29,4 +29,4 @@ This application is meant for Onsite Employees, HR, and Admin whose roles have b
 
 ## Demo
 
-[https://drive.google.com/file/d/1bycnV6zf9xU0kXV2lCxDVHtlNL12iIG3/view](https://github.com/thelo09/Remote_Resource_Allocation/assets/137653186/1fd1f402-a65d-4a9f-9f5b-400b4c11ae4a)
+[https://drive.google.com/file/d/1bycnV6zf9xU0kXV2lCxDVHtlNL12iIG3/view](https://drive.google.com/file/d/1bycnV6zf9xU0kXV2lCxDVHtlNL12iIG3/view)
