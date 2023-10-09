@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(236, 230, 230);
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+.wrap {
+  margin: auto;
+  display: flex;
+}
+.sidebar ul {
+  margin-top: 50px;
+}
+.sidebar ul li {
+  list-style: none;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 0px;
+  padding-top: 18px;
+  align-items: center;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20px;
+}
+/* .sidebar ul li ion-icon {
+  margin: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(133, 4, 255);
+} */
+.sidebar li:hover,
+li.active {
+  border: 3px solid rgb(133, 4, 255);
+  /* border-collapse: collapse;
+  border-top-left-radius: 5px; */
+  background-color: rgb(133, 4, 255);
+  color: #fff;
+}
+
+.head {
+  display: flex;
+  padding: 20px 30px;
+}
+h2 {
+  color: rgb(133, 4, 255);
+  font-size: 26px;
+}
+.h-title span {
+  font-size: 16px;
+  color: rgba(132, 0, 255, 0.651);
+}
+.search {
+  width: 400px;
+  margin-left: 120%;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 7px 13px;
+  border-radius: 15px;
+}
+.card {
+  display: flex;
+  padding: 15px 40px;
+}
+.info {
+  width: 230px;
+  height: 150px;
+  padding: 30px;
+  background: rgb(133, 4, 255);
+  margin-right: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+.info span {
+  margin-bottom: 30px;
+}
+h5 {
+  margin-top: 8px;
+}
+.board {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 250px;
+  margin-right: 250px; */
+}
+h1 {
+  align-content: center;
+  font-size: 56px;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
+.card-icon1 {
+  padding-left: 60px;
+  align-content: center;
+}
+.info1 {
+  width: 230px;
+  height: 150px;
+  padding: 30px;
+  background: rgb(133, 4, 255);
+  margin-right: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+.imgcont {
+  margin-top: 20px;
+}
+.imgcont span {
+  margin-top: 0;
+  margin-left: 100px;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+h4 {
+  font-size: 14px;
+  color: #0084ff;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+  font-family: "Dongle", sans-serif;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.tab {
+  margin-left: 100px;
+}
+.sidebar-header {
+  /* height: 4.875rem; */
+  display: flex;
+  /* margin: 10px;
+  border: 5px solid black; */
+  justify-content: space-between;
+}
+.title {
+  text-align: center;
+  align-items: center;
+}
+.sidebar-header .link {
+  padding: 1.5rem 2rem;
+}
+.sidebar .sidebar-header .image {
+  max-width: 50%;
+  max-height: 2rem;
+}
+.sidebar-header span {
+  font-size: 100px;
+}
+.main_1 {
+  display: flex;
+  height: 60px;
+  vertical-align: middle;
+  background-color: rgb(133, 4, 255);
+  width: 200px;
+}
+.info_1 {
+  font-size: 8px;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.icon {
+  padding-top: 10px;
+  margin-right: 4px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.card {
+  display: flex;
+  padding: 15px 40px;
+  width: 280px;
+}
+.info {
+  width: 230px;
+  height: 150px;
+  padding: 30px;
+  background: rgb(133, 4, 255);
+  margin-right: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+.info span {
+  margin-bottom: 30px;
+}
+h5 {
+  margin-top: 8px;
+}
+.board {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 250px;
+  margin-right: 250px; */
+}
+h1 {
+  align-content: center;
+  font-size: 30px;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.card-icon1 {
+  padding-left: 60px;
+  align-content: center;
+}
+.info1 {
+  width: 230px;
+  height: 150px;
+  padding: 30px;
+  background: rgb(133, 4, 255);
+  margin-right: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.sub {
+  display: flex;
+}
+hr.style-seven {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr {
+  border: 0;
+  border-bottom: 1px dashed plum;
+  background: purple;
+}
+.main {
+  width: 1200px;
+}
+.sub1 {
+  display: flex;
+}
+.time {
+  font-size: 70px;
+}
+.info_12 {
+  width: 230px;
+  height: 300px;
+  padding: 30px;
+  background: rgb(133, 4, 255);
+  margin-right: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+.card-container {
+  background-color: rgb(133, 4, 255);
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  margin-left: 40px;
+  height: 350px;
+  padding-bottom: 20px;
+}
+
+.card-container .pro {
+  color: #231e39;
+  background-color: #febb0b;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.card-container .round {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+button.primary {
+  background-color: #03bfcb;
+  border: 1px solid #03bfcb;
+  border-radius: 3px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+button.primary.ghost {
+  background-color: transparent;
+  color: #02899c;
+}
+
+.skills {
+  background-color: #1f1a36;
+  text-align: left;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2d2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+.x {
+  margin-top: 5px;
+}
+.p {
+  margin-bottom: 3px;
+}
+.sidebar {
+  width: 200px;
+  height: 800px;
+  background: #fff;
+  position: fixed;
+  margin-right: 200px;
+}
+.main {
+  margin-left: 200px;
+}
